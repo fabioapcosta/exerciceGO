@@ -7,7 +7,6 @@ import { cityDetails, sortData } from '../services/weather';
 // Home page route
 weather.post('/getInfo', async function (req, res) {
 
-    console.log(req.body)
     let msg;
     log(req.originalUrl, 'requests.log');
     try {
